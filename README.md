@@ -1,48 +1,81 @@
 # Contract Analysis \& Risk Assessment Bot
 
 
+# 📄 Contract Analysis & Risk Assessment Bot
 
-An AI-inspired legal assistant designed for small and medium businesses
+Ever read a contract and thought  
+“🙂 okay…”  
+“🤨 wait what?”  
+“😨 WHY is this even legal??”
 
-to analyze contracts, identify risks, and suggest mitigation strategies.
+Yeah. Same.
 
+This project is a **GenAI-inspired Contract Risk Assessment Bot** built to help **small and medium businesses (SMEs)** understand complex contracts *without needing a law degree*.
 
+---
 
-Features:
+## 🚀 What Does This Do?
 
-\- Multi-format contract upload (TXT, PDF, DOCX)
+You upload a contract.  
+The bot:
+- Reads it 📖
+- Breaks it down 🧠
+- Finds risky clauses 🚩
+- Scores the contract ⚠️
+- Explains everything in **plain business language**
+- Suggests how to fix the risks 💡
 
-\- Clause-level risk analysis
+All **locally processed**.  
+No data leaks. No uploads to the cloud. No stress. 🔒
 
-\- Composite risk scoring
+---
 
-\- Plain-language explanations
+## ✨ Features
 
-\- PDF risk report generation
+✔ Upload contracts in **TXT, PDF, DOCX**  
+✔ Clause-level risk detection  
+✔ Overall risk score (0–100)  
+✔ Color-coded risk level (Low / Medium / High)  
+✔ Plain-English contract summary  
+✔ Risk mitigation suggestions  
+✔ Downloadable **PDF risk report**  
+✔ Local **audit log** for traceability  
+✔ Supports **English & Hindi contracts**  
+✔ Simple, clean & judge-friendly UI  
 
-\- Local processing with audit logs
+---
 
-\- Hindi \& English contract support
+## 🧠 How It Works (In Simple Words)
 
+Instead of blindly flagging keywords, the system:
+- Checks **clause fairness**
+- Detects **one-sided termination**
+- Identifies **heavy or ambiguous penalties**
+- Flags **jurisdiction bias**
+- Penalizes missing **arbitration/dispute resolution**
 
+The risk score changes **based on severity**, not just word presence.
 
-Tech Stack:
+Smart. Explainable. Practical.
 
-\- Python
+---
 
-\- Streamlit
+## 🛠 Tech Stack
 
-\- Rule-based NLP
+- Python 🐍  
+- Streamlit 🎈  
+- Rule-based NLP logic  
+- ReportLab (PDF generation)  
+- JSON-based audit logging  
 
-\- ReportLab
+No external legal databases.  
+No paid APIs.  
+Fully compliant with hackathon constraints.
 
+---
 
+## ▶️ How To Run Locally
 
-How to Run:
-
+```bash
 pip install -r requirements.txt
-
 streamlit run app.py
-
-
-
