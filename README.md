@@ -1,6 +1,3 @@
-# Contract Analysis \& Risk Assessment Bot
-
-
 # 📄 Contract Analysis & Risk Assessment Bot
 
 Ever read a contract and thought  
